@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*
+*
+*
+Estilo para o conteúdo do nosso site
+*
+*
+*/
+
+
+.artigo{
+	width: 1280px;
+	background-color: rgb(201, 106, 106);
+	padding: 40px; 
+	margin:40px auto;
+	text-align: center;
+	/* Maneira mais fácil para aplicar para todos os textos de uma vez*/
+	font-family: tahoma;
+}
+
+.artigo h1{
+	color:rgb(0, 0, 0);
+	font-size: 23px;
+	font-style: normal;
+	font-weight: normal;
+	border: 5px 5px 5px;
+	/*font-variant: small-caps;*/
+}
+
+.artigo p{
+	color: #000000;
+	text-align: left;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 40px;
+	margin-top:12px;
+}

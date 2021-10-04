@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+html, body {
+    height: 100%;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.box {
+    width: 500px;
+    height: 500px;
+    border-radius: solid black;
+    background-color: yellow;
+    display:inline-block;
+    grid-template-columns: repeat(1fr 1fr);
+    
+    
+
+}
+.caixa {
+    width: 500px;
+    height: 500px;
+    border-radius: solid black;
+    background-color:rgb(82, 82, 8) ;
+    display: inline-block; 
+    left: auto;
+    
+}
