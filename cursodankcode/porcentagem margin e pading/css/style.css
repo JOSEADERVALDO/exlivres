@@ -23,9 +23,9 @@
 	background-color: gray;
 }
    .box p{
-	   background-position: left;
+	   background-position: right;
 	position: relative;
 	color: orange;
-	text-align: center;
+	
 	
 } 
