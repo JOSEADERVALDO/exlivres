@@ -2,7 +2,12 @@
 	margin: 0;
 	padding: 0;
 }
-
+body{
+	background-color:black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	text-justify: ;
+}
 a{
 	text-decoration: none;
 }
@@ -13,12 +18,21 @@ a{
 	text-align: center;
 }
 
-.menu a{
+.menu a:{
 	color: red;
-	padding-right: 8px;
-	border-right: 3px solid red;
+	padding: 18px;
+	border: 3px solid red;
 	font-size: 20px;
-	margin:0 10px;
+	margin:0 30px;
+	border-radius: 13px;
 }
 
-
+main {
+	width: 700px;
+	height: 600px;
+	background-color: yellowgreen;
+	text-align: center;
+	margin: auto;
+	border-radius: 13px;
+	box-shadow: blanchedalmond;
+}
