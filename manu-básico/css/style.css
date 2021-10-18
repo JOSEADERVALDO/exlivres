@@ -6,7 +6,7 @@ body{
 	background-color:black;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
-	text-justify: ;
+	
 }
 a{
 	text-decoration: none;
@@ -18,7 +18,7 @@ a{
 	text-align: center;
 }
 
-.menu a:{
+.menu a{
 	color: red;
 	padding: 18px;
 	border: 3px solid red;
@@ -26,7 +26,10 @@ a{
 	margin:0 30px;
 	border-radius: 13px;
 }
-
+.menu a:hover {
+	background-color: cadetblue;
+	color: cyan;
+}
 main {
 	width: 700px;
 	height: 600px;
