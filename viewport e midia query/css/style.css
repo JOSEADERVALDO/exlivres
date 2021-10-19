@@ -17,13 +17,14 @@ html,body{
 	float: left;
 }
 
-/*
+
+
 @media screen and (min-height: 320px){
 	.box{
 		width:50%;
 	}
 }
-*/
+
 
 /*
 @media screen and (max-height: 580px){
@@ -56,9 +57,10 @@ html,body{
 	}
 }
 
-*/
+*//*
 @media screen and (max-width: 320px){
 	.box{
 		width: 100%;
 	}
 }
+*/
