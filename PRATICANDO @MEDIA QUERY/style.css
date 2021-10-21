@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+htlm,body {
+   height:  100%;
+}
+.box p {
+    text-align: center;
+    color: white;
+    
+}
+.box {
+    border: 1px solid white;
+    width: 33.3%;
+    height: 200px;
+    background-color: black;
+    display: inline-block
+    
+     
+    
+}
+@media (min-width: 400px) and (max-width: 800px) {
+    p {
+     color: blue;
+    }
+    div {
+     background: red;
+    }
+   }
