@@ -1,31 +1,30 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-htlm,body {
-   height:  100%;
-}
-.box p {
-    text-align: center;
-    color: white;
-    
-}
-.box {
-    border: 1px solid white;
-    width: 33.3%;
-    height: 200px;
-    background-color: black;
-    display: inline-block
-    
-     
-    
-}
-@media (min-width: 400px) and (max-width: 800px) {
-    p {
-     color: blue;
+
+
+
+     body {
+         color: red;
+         text-align: center;
+     }
+    h1 { 
+        background-color: turquoise;
+        font-size: 6rem;
     }
-    div {
-     background: red;
+    h2 {background-color: yellowgreen;
+        font-size: 4rem;
     }
-   }
+    @media all and (max-width:600px){
+        body {
+            color: red;
+        }
+    }
+    @media (orientation: landscape) and (max-width: 500px){
+       h1 {
+           color: green;
+       }
+    }
+    @media (orientation: portrait){
+        h2 {
+            color: yellow;
+        }
+    }
+    
