@@ -19,9 +19,9 @@
 
 
 .table-cel{
-	height: 400px;
+	height: 200px;
 	text-align: center;
 	vertical-align: middle;
-	border:1px solid black;
+	border:1px solid rgb(3, 197, 181);
 	display: table-cell;
 }

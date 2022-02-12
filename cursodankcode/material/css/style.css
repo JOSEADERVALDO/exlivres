@@ -7,7 +7,7 @@
 
 p{
 	width: 100px;
-	background-color: gray;
+	background-color: rgb(97, 94, 94);
 	/*O white-space é como o navegador interpreta o espaço. Podemos utilizar como a tag pre ou nunca quebrar a linha.*/
 	white-space: pre;
 	word-wrap: break-word;
